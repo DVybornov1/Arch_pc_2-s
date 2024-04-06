@@ -23,8 +23,11 @@ theme: metropolis
 header-includes:
  - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
  - '\makeatletter'
- - '\beamer@ignorenonframefalse'
+ - '\beamer@ignorenonframetrue'
  - '\makeatother'
+
+
+
 ---
 
 # Информация
@@ -40,8 +43,6 @@ header-includes:
 
 :::
 ::: {.column width="30%"}
-
-![](./image/kulyabov.jpg)
 
 :::
 ::::::::::::::
